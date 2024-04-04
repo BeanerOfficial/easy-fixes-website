@@ -39,6 +39,7 @@ body {
   nav.visible {
     top: 0;
     translate: 0;
+    border-radius: 10px
   }
   
   nav > h1 {
@@ -54,7 +55,7 @@ body {
   .nav-items {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 30px;
   }
   
   .nav-items > a {
@@ -180,4 +181,6 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
+  border-radius: 5px
 }
+
